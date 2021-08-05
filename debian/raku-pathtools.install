@@ -1,0 +1,4 @@
+lib/* usr/share/perl6/debian-sources/raku-pathtools/lib
+t/* usr/share/perl6/debian-sources/raku-pathtools/t
+META* usr/share/perl6/debian-sources/raku-pathtools
+README* usr/share/doc/raku-pathtools/
