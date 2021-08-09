@@ -1,5 +1,11 @@
-raku-pathtools (0.1.1-1) UNRELEASED; urgency=medium
+raku-pathtools (0.1.1-2) unstable; urgency=medium
 
-  * Create package for Raku module PathTools
+  * Add test support on build
 
- -- Élerille <elerille+debian@thran.io>  Thu, 05 Aug 2021 13:30:11 +0200
+ -- Élerille <elerille+debian@thran.io>  Mon, 09 Aug 2021 12:49:43 +0200
+
+raku-pathtools (0.1.1-1) unstable; urgency=medium
+
+  * Initial release
+
+ -- Élerille <elerille+debian@thran.io>  Mon, 09 Aug 2021 12:24:45 +0200

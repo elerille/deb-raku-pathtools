@@ -2,11 +2,19 @@ Source: raku-pathtools
 Maintainer: Élerille <elerille+debian@thran.io>
 Section: interpreters
 Priority: optional
-Build-Depends: debhelper-compat (= 12), dh-perl6
+Build-Depends: debhelper-compat (= 13), dh-perl6, perl6-tap-harness
 Standards-Version: 4.5.1
+Homepage: https://github.com/ugexe/Perl6-PathTools
+Rules-Requires-Root: no
 
 Package: raku-pathtools
 Architecture: all
 Depends: rakudo, ${misc:Depends}
-Description: Raku module PathTools
- General purpose file system utility routines
+Description: General purpose file system utility routines
+ Provides system utility routine for Raku
+ .
+ ls - List file/directory (recusively is possible)
+ rm - Remove file/directory (recusively is possible)
+ mkdirs - Create directories
+ mktemp - Create temp file/directory
+ tmppath - Generate unique path (the name is time-based)
